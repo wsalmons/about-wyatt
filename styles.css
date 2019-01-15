@@ -22,7 +22,7 @@
 
 .image {
 	display: block;
-	margin-top: 640px;
+	margin-top: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 20%;
@@ -58,4 +58,14 @@ body {
 @keyframes bounce {
 	from { transform: translate3d(0, 0, 0);     }
 	to   { transform: translate3d(0, 200px, 0); }
+}
+
+.button {
+	font-family: sans-serif;
+	font-size: 40px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	color: red;
 }
